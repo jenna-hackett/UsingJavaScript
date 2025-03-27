@@ -28,7 +28,7 @@ let duration = 0;
 // INSERT YOUR CODE HERE
 function recalculate() {
     // create a variable to represent the calculated-cost span element
-    let costLabel = document.getElementById("calculated-cost")
+    let costLabel = document.getElementById("calculated-cost");
     // check the value of the modelName variable, and use that to calculate the new total cost
     let totalCost = 0;
     if (modelName === "XYZ") {
@@ -59,7 +59,7 @@ let modelButton = document.getElementById("model-button");
 
 function changeModel() {
     // create variable to represent the model-text span elemtn
-    let modelText = document.getElementById("model-text")
+    let modelText = document.getElementById("model-text");
     //if modelName is currently "XYZ", change the value of modelName to "CPRG"
     if (modelName === "XYZ") {
         modelName = "CPRG";
